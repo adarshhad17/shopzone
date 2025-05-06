@@ -1,0 +1,80 @@
+.ad-card {
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 860px;
+    height: 190px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+    box-shadow: 0 2px 8px rgba(27, 94, 161, 0.2);
+    background-color: #fff;
+  }
+  
+  .ad-left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .ad-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .ad-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .ad-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .ad-location {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .ad-time {
+    color: #8a2be2;
+  }
+  
+  .ad-price {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0 0;
+  }
+  
+  .ad-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-btn {
+    padding: 6px 14px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .edit-btn {
+    padding: 6px 14px ;
+    border: none ;
+    background-color: #ff0a78 ;
+    color: white ;
+    border-radius: 20px ;
+    cursor: pointer;
+    font-weight: 500 ;
+  }
+  
+  

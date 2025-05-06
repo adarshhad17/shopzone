@@ -1,0 +1,25 @@
+.footer-main{
+  position: fixed;
+  background-color: black;
+  bottom: 0px;
+  color: white;
+  height: 101px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.logo-footer{
+  margin-left: 50px;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  gap: 15px;
+  width: 200px;
+  height: 22px;
+}

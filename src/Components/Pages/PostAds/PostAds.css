@@ -1,0 +1,68 @@
+.ad-container {
+   
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(27, 94, 161, 0.2);
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .ad-input {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 12px;
+  }
+  
+  
+  .login-input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .label-input {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  /* Base input styles */
+  .input-form {
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Individual heights */
+  .input-username {
+    height: 70px;
+  }
+  
+  .input-password {
+    height: 50px;
+  }
+  
+  .login-button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #f50963;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #f50963;
+  }
+  

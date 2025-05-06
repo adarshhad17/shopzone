@@ -1,0 +1,45 @@
+
+
+.whatsnew-container {
+    padding: 2rem;
+  }
+  
+  .whatsnew-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .whatsnew-subheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .head-div-ads{
+    color: #F50963;
+    font-weight: 600px;
+  }
+  
+  .whatsnew-indicators {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .whatsnew-dot {
+    height: 16px;
+    width: 16px;
+    background: #000;
+    border-radius: 0.5rem;
+  }
+  
+  .whatsnew-card-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
